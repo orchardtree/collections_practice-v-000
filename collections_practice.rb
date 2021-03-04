@@ -20,6 +20,9 @@ end
 
 def swap_elements(array)
   array.sort do |a, b|
-    if array[a]
+    test = if array[a] == ashley
+      true
+    end
   end
+  test
 end
