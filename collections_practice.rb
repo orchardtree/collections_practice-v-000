@@ -20,6 +20,8 @@ end
 
 def swap_elements(array)
   array.sort do |a, b|
+    if a.index == 1
       b <=> a
+    end
   end
 end
