@@ -20,7 +20,7 @@ end
 
 def swap_elements(array)
   array.sort do |a, b|
-    if a.chomp == array[1]
+    if a.chomp == array[1].chomp
       b <=> a
       #binding.pry
     end
