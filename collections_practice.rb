@@ -20,7 +20,8 @@ end
 
 def swap_elements(array)
   array.sort do |a, b|
-    if a == array[1]
+    a = string_a
+    if string_a == array[1]
       b <=> a
       #binding.pry
     end
