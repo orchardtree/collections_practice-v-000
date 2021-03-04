@@ -3,6 +3,7 @@ require 'pry'
 def sort_array_asc(array)
   array.sort do |a, b|
     a <=> b
+    binding.pry
   end
 end
 
@@ -21,6 +22,6 @@ end
 def swap_elements(array)
   array.sort do |a, b|
     b <=> a
-    binding.pry
+
   end
 end
