@@ -20,7 +20,6 @@ end
 
 def swap_elements(array)
   array.sort do |a, b|
-    binding.pry
-    b <=> a
+    b
   end
 end
