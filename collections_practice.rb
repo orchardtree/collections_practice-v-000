@@ -22,6 +22,7 @@ def swap_elements(array)
   array.sort do |a, b|
     if a == array[1] && b == array[2]
       b <=> a
+      binding.pry
     end
   end
 end
